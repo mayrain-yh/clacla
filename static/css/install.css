@@ -1,0 +1,130 @@
+ .yh_header{
+			line-height: 30px;
+			width: 100%;
+			display: flex;
+			border-bottom:1px solid #000;
+			position: fixed;
+			z-index: 999;
+			background-color: white;
+		}
+		.tubiao{
+			height: 70px;
+			margin-top: 15.8px;
+			margin-left: 18px;
+		}
+		.sousuokuang {
+			margin-top: 2%;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		.danmukuang{
+			margin-top: 30px;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		ul li{
+			float: left;
+			margin: 20px;
+			list-style-type: none;
+
+		}
+		ul li a{
+			text-decoration: none;
+			color: #000;
+		}
+		input{
+			width: 380px;
+			height: 30px;
+			border:1px solid #000;
+			border-right: none;
+			border-radius: 4px;
+
+		}
+		button{
+			position: relative;
+			right: 2px;
+			width: 70px;
+			height: 35px;
+			font-size: 14px;
+			color: white;
+			background: #000;
+			border:0;
+			border-radius: 4px;
+		}
+		button a{
+			text-decoration: none;
+			color: white;
+		}
+		.yonghu{
+			display: flex;
+			float: right;
+		}
+		.yonghu img{
+			height: 70px;
+			border-radius: 30px;
+		}
+		.inner{
+			margin: 0 auto;
+			padding-top: 100px;
+			width: 80%;
+		}
+		.backg{
+			width: 59%;
+			margin-left: 20%;
+			height: 90%;
+		}
+		.backg img{
+			height: 90%;
+		}
+		.title_line{
+			width: 980px;
+			height: 28px;
+			margin: 0 auto;
+			margin-top: 1%;
+			border-bottom: 1px solid #ddd;
+			margin-bottom: 28px;
+			text-align: center;
+		}
+		.zhuce{
+			font-size: 38px;
+			background-color: #fff;
+			padding: 1%;
+		}
+		.register{
+			width: 50%;
+			margin: 0 auto;
+			padding-top: 3%;
+		}
+
+		.rr input{
+			margin: 2%;
+			width: 320px;
+			height: 40px;
+			border:2px solid #000;
+			border-right: none;
+			border-radius: 8px;
+			margin-left: 23%;
+			margin-bottom: 5%;
+		}
+		.rr button{
+			margin: 2%;
+			margin-left: 23%;
+			position: relative;
+			right: 2px;
+			width: 320px;
+			height: 40px;
+			font-size: 14px;
+			color: white;
+			background: rgb(0,161,214);
+			border:0;
+			border-radius: 4px;
+		}
+		.tiaozhuan{
+			font-size: 15px;
+			float: right;
+
+		}
+		.tiaozhuan a{
+			color: rgb(0,161,214);
+			text-decoration: none;
+		}

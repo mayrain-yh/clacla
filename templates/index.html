@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>刺啦刺啦</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+</head>
+<body>
+    <header class="yh_header">
+
+		<div><img src="{{url_for('static',filename='image/tubiao.jfif')}}" class="tubiao" ></div>
+		<ul class="tab">
+			<li><a href="{{url_for('index')}}">首页</a></li>
+			<li><a href="{{url_for('update')}}">密码修改</a></li>
+			<li><a href="{{url_for('useinner')}}">头像上传</a></li>
+		</ul>
+		<form action="{{url_for('search')}}" method="get" style="width:45%;">
+		<div class="sousuokuang">
+		<input type="" name="q" id="" value=""placeholder="  今天小球认真学习了吗！"/>
+			<button><div><a href="">搜索</a></div></button>
+		</div>
+		</form>
+		<div class="yonghu">
+			<img src="{{url_for('static',filename='image/morentouxiang.jpg')}}">
+			<div>
+				<ul>
+
+					{% if user %}
+					<li><a href="#">{{user.username}}</a></li>
+					<li><a href="{{url_for('logout')}}">注销</a></li>
+					{% else %}
+					<li><a href="{{url_for('ashore')}}">登录</a></li>
+					<li><a href="{{url_for('install')}}">注册</a></li>
+
+					{% endif %}
+					<li><a href="{{url_for('release')}}">发布视频</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="inner">
+		<ul>
+			{% for video in videos %}
+				<li>
+					<div class="list_new">
+						<div class="user_photo">
+							<img src="{{url_for('static',filename='image/morentouxiang.jpg')}}">
+						</div>
+						<div class="video_i">
+							<p class="title"><a href="{{url_for('detail',video_id=video.id)}}">{{video.title}}</a></p>
+							<p>{{video.content}}</p>
+							<div class="user_inner">
+								<span>{{video.author.username}}</span>
+								<span>{{video.create_time}}</span>
+							</div>
+						</div>
+					</div>
+				</li>
+			{% endfor %}
+
+		</ul>
+	</div>
+</body>
+</html>

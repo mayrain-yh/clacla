@@ -1,0 +1,208 @@
+.yh_header{
+			line-height: 30px;
+			width: 100%;
+			display: flex;
+			border-bottom:1px solid #000;
+			position: fixed;
+			z-index: 999;
+			background-color: white;
+		}
+		.tubiao{
+			height: 70px;
+			margin-top: 15.8px;
+			margin-left: 18px;
+		}
+		.sousuokuang {
+			margin-top: 2%;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		.danmukuang{
+			margin-top: 30px;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		ul li{
+			float: left;
+			margin: 20px;
+			list-style-type: none;
+
+		}
+		ul li a{
+			text-decoration: none;
+			color: #000;
+		}
+		input{
+			width: 380px;
+			height: 30px;
+			border:1px solid #000;
+			border-right: none;
+			border-radius: 4px;
+			
+		}
+		button{
+			position: relative;
+			right: 2px;
+			width: 70px;
+			height: 35px;
+			font-size: 14px;
+			color: white;
+			background: #000;
+			border:0;
+			border-radius: 4px;
+		}
+		button a{
+			text-decoration: none;
+			color: white;
+		}
+		.yonghu{
+			display: flex;
+			float: right;
+		}
+		.yonghu img{
+			height: 70px;
+			border-radius: 30px;
+		}
+
+		.inner{
+			margin:0 auto;
+			z-index: -1;
+			padding-top: 110px;
+			width: 80%;
+			
+			text-align: center;
+			padding-bottom: 5%;
+		}
+		.video_inner{
+			position: relative;
+			float: left;
+			display: inline-block;
+			width: 50%;
+			font-size: 18px;
+		}
+		.chara_inner{
+			position: relative;
+			float: right;
+			display: inline-block;
+			width: 50%;
+			font-size: 18px;
+		}
+		span{
+			display:inline-block;
+			word-wrap:break-word;
+			white-space:normal;
+			margin-top: 3%;
+			margin-bottom: 1%;
+			margin-left: 5%;
+		}
+		.writer{
+			display: flex;
+			text-align: center;
+			padding-left: 40%;
+		}
+		.writer img{
+			height: 70px;
+			border-radius: 30px;
+		}
+		.jianjie{
+			margin-left: 10%;
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+		.jianjie_inner{
+			margin-top: 4%;
+			margin-bottom: 1%;
+		}
+
+
+		.inner{
+			background-color: rgb(240,240,240);
+			width: 65%;
+			margin: 0 auto;
+			margin-bottom: 10%;
+			padding-bottom: 10%;
+		}
+		.list_new{
+			width: 750px;
+			background-color: rgb(240,240,240);
+			display: inline-block;
+		}
+		.inner{
+			text-align:center;
+
+		}
+		.title{
+			font-weight: bold;
+			font-size: 25px;
+		}
+		.rr input{
+			margin: 2%;
+			width: 320px;
+			height: 40px;
+			border:2px solid #000;
+			border-right: none;
+			border-radius: 8px;
+			margin-left: 23%;
+			margin-bottom: 5%;
+		}
+		.rr button{
+			margin: 2%;
+			margin-left: 23%;
+			position: relative;
+			right: 2px;
+			width: 320px;
+			height: 40px;
+			font-size: 14px;
+			color: white;
+			background: rgb(0,161,214);
+			border:0;
+			border-radius: 4px;
+		}
+		.pinglun{
+			width: 100%;
+			display: block;
+			padding-bottom: 10%;
+			background-color: rgb(240,240,240);
+		}
+		.intro img{
+			height: 100px;
+			border-radius: 60px;
+			margin: 10px 20px;
+			padding:10px 20px;
+
+		}
+		.intro{
+			display: block;
+			background-color: rgb(240,240,240);
+		}
+		.pinglun ul {
+			background-color: rgb(240,240,240);
+			display: block;
+			float: left;
+			width: 100%;
+			height: 100%;
+			padding-left: 0px;
+			margin-left: 0px;
+		}
+		.pinglun ul li{
+
+			width: 100%;
+			display: flex;
+			height: 100%;
+			text-align: center;
+			border-bottom: 2px solid #fff ;
+		}
+		.pinglun ul li:last-child{
+			border-bottom: none;
+		}
+		._pinglun{
+			line-height: 100px;
+		}
+		.user_inner span:first-child{
+			float: left;
+			margin-left: 15%;
+		}
+		.user_inner span:last-child{
+			float: left;
+			margin-left: 30%;
+		}

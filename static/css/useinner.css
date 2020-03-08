@@ -1,0 +1,137 @@
+.yh_header{
+			line-height: 30px;
+			width: 100%;
+			display: flex;
+			border-bottom:1px solid #000;
+			position: fixed;
+			z-index: 999;
+			background-color: white;
+		}
+		.tubiao{
+			height: 70px;
+			margin-top: 15.8px;
+			margin-left: 18px;
+		}
+		.sousuokuang {
+			margin-top: 2%;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		.danmukuang{
+			margin-top: 30px;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		ul li{
+			float: left;
+			margin: 20px;
+			list-style-type: none;
+
+		}
+		ul li a{
+			text-decoration: none;
+			color: #000;
+		}
+		input{
+			width: 380px;
+			height: 30px;
+			border:1px solid #000;
+			border-right: none;
+			border-radius: 4px;
+			
+		}
+		button{
+			position: relative;
+			right: 2px;
+			width: 70px;
+			height: 35px;
+			font-size: 14px;
+			color: white;
+			background: #000;
+			border:0;
+			border-radius: 4px;
+		}
+		button a{
+			text-decoration: none;
+			color: white;
+		}
+		.yonghu{
+			display: flex;
+			float: right;
+		}
+		.yonghu img{
+			height: 70px;
+			border-radius: 30px;
+		}
+		.inner{
+			margin: 0 auto;
+			padding-top: 100px;
+			width: 80%;
+			background-color: rgb(240,240,240);
+			text-align: center;
+			display: block;
+			padding-bottom: 100px;
+		}
+		.title_t{
+
+			text-align: center;
+			font-size: 40px;
+			margin:0 auto;
+			margin-top: 5%;
+
+		}
+		.fu_title{
+			float: left;
+			margin-left: 20%;
+		}
+		.ss{
+			height: 30px;
+		}
+		.xuanxiang{
+			display: table;
+		}
+		.sub{
+			background-color: rgb(140,171,117);
+			width: 80px;
+			float: right;
+			margin-right: 20%;
+		}
+		.con4 {
+				width: 300px;
+				height: auto;
+				overflow: hidden;
+				margin: 20px auto;
+				color: #FFFFFF;
+			}
+			
+			.con4 .btn {
+				width: 100%;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				background: #d8b49c;
+				display: block;
+				font-size: 16px;
+				border-radius: 5px;
+			}
+			
+			.upload {
+				float: left;
+				position: relative;
+			}
+			
+			.upload_pic {
+				display: block;
+				width: 100%;
+				height: 40px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				opacity: 0;
+				border-radius: 5px;
+			}
+			
+			#cvs {
+				border: 1px solid #000;
+				margin: 20px 0 20px 50px;
+			}

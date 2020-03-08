@@ -1,0 +1,157 @@
+.yh_header{
+			line-height: 30px;
+			width: 100%;
+			display: flex;
+			border-bottom:1px solid #000;
+			position: fixed;
+			z-index: 999;
+			background-color: white;
+		}
+		.tubiao{
+			height: 70px;
+			margin-top: 15.8px;
+			margin-left: 18px;
+		}
+		.sousuokuang {
+			margin-top: 2%;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		.danmukuang{
+			margin-top: 30px;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		ul li{
+			float: left;
+			margin: 20px;
+			list-style-type: none;
+
+		}
+		ul li a{
+			text-decoration: none;
+			color: #000;
+		}
+		input{
+			width: 380px;
+			height: 30px;
+			border:1px solid #000;
+			border-right: none;
+			border-radius: 4px;
+
+		}
+		button{
+			position: relative;
+			right: 2px;
+			width: 70px;
+			height: 35px;
+			font-size: 14px;
+			color: white;
+			background: #000;
+			border:0;
+			border-radius: 4px;
+		}
+		button a{
+			text-decoration: none;
+			color: white;
+		}
+		.yonghu{
+			display: flex;
+			float: right;
+		}
+		.yonghu img{
+			height: 70px;
+			border-radius: 30px;
+		}
+		.inner{
+			margin:0 auto;
+			z-index: -1;
+			padding-top: 110px;
+			width: 80%;
+			display: flex;
+			text-align: center;
+			padding-bottom: 5%;
+		}
+		.video_inner{
+			position: relative;
+			float: left;
+			display: inline-block;
+			width: 50%;
+			font-size: 18px;
+		}
+		.chara_inner{
+			position: relative;
+			float: right;
+			display: inline-block;
+			width: 50%;
+			font-size: 18px;
+		}
+		span{
+			display:inline-block;
+			word-wrap:break-word;
+			white-space:normal;
+			margin-top: 3%;
+			margin-bottom: 1%;
+			margin-left: 5%;
+		}
+		.writer{
+			display: flex;
+			text-align: center;
+			padding-left: 40%;
+		}
+		.writer img{
+			height: 70px;
+			border-radius: 30px;
+		}
+		.jianjie{
+			margin-left: 10%;
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+		.jianjie_inner{
+			margin-top: 4%;
+			margin-bottom: 1%;
+		}
+.user_photo img{
+			height: 100px;
+			border-radius: 60px;
+			margin: 10px 20px;
+			padding:10px 20px;
+		}
+		.video_i{
+			margin:0 auto;
+			padding:10px 100px;
+			text-align: center;
+
+		}
+		.user_inner{
+			display: flex;
+			float: right;
+			margin:5px 0px 10px 0px;
+			width: 350px;
+		}
+		.list_new{
+			width: 750px;
+			background-color: rgb(240,240,240);
+			display: flex;
+		}
+		.inner{
+			text-align:center;
+		}
+		.inner ul{
+			margin: 0 auto;
+			padding: 2px 5px;
+			
+		}
+		.inner ul li{
+margin:0px;
+			border-bottom: 1px solid #666;
+background-color: rgb(240,240,240);
+		}
+		.inner ul li:last-child{
+			border-bottom: none;
+		}
+		.title{
+			font-weight: bold;
+			font-size: 25px;
+		}

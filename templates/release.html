@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发布视频-刺啦刺啦</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/release.css')}}">
+</head>
+<body>
+    <header class="yh_header">
+
+		<div><img src="{{url_for('static',filename='image/tubiao.jfif')}}" class="tubiao" ></div>
+		<ul class="tab">
+			<li><a href="{{url_for('index')}}">首页</a></li>
+			<li><a href="{{url_for('update')}}">密码修改</a></li>
+			<li><a href="{{url_for('useinner')}}">头像上传</a></li>
+		</ul>
+		<form action="{{url_for('search')}}" method="get" style="width:45%;">
+		<div class="sousuokuang">
+		<input type="" name="q" id="" value=""placeholder="  今天小球认真学习了吗！"/>
+			<button><div><a href="">搜索</a></div></button>
+		</div>
+		</form>
+		<div class="yonghu">
+			<img src="{{url_for('static',filename='image/morentouxiang.jpg')}}">
+			<div>
+				<ul>
+					{% if user %}
+					<li><a href="#">{{user.username}}</a></li>
+					<li><a href="{{url_for('logout')}}">注销</a></li>
+					{% else %}
+					<li><a href="{{url_for('ashore')}}">登录</a></li>
+					<li><a href="{{url_for('install')}}">注册</a></li>
+
+					{% endif %}
+
+					<li><a href="{{url_for('release')}}">发布视频</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+    <div class="inner">
+		<div class="title_line">
+			<span class="zhuce">发布视频</span>
+		</div>
+		<form action="/release/" method="POST" enctype="multipart/form-data">
+		<div class="register">
+			<div class="rr">
+				<input type="text" name="title" placeholder="视频名称">
+			</div>
+			<div class="rr" class="rr1">
+				<textarea name="content" id="" cols="40" rows="10" style="margin-left: 20%;"placeholder="视频简介"></textarea>
+			</div>
+			<input name="file" type="file"  id="file" style="margin-left:20%;margin-top:6%;margin-bottom:6%;" />
+			<div class="rr">
+				<input type="submit" value="上传">
+<!--				<button>发布</button>-->
+			</div>
+		</div>
+        </form>
+	</div>
+</body>
+</html>

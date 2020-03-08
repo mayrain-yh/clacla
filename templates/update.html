@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>刺啦刺啦密码修改页面</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/ashore.css')}}">
+</head>
+<body>
+    <header class="yh_header">
+
+		<div><img src="{{url_for('static',filename='image/tubiao.jfif')}}" class="tubiao" ></div>
+		<ul class="tab">
+			<li><a href="{{url_for('index')}}">首页</a></li>
+			<li><a href="{{url_for('update')}}">密码修改</a></li>
+			<li><a href="{{url_for('useinner')}}">头像上传</a></li>
+		</ul>
+		<form action="{{url_for('search')}}" method="get" style="width:45%;">
+		<div class="sousuokuang">
+		<input type="" name="q" id="" value=""placeholder="  今天小球认真学习了吗！"/>
+			<button><div><a href="">搜索</a></div></button>
+		</div>
+		</form>
+		<div class="yonghu">
+			<img src="{{url_for('static',filename='image/morentouxiang.jpg')}}">
+			<div>
+				<ul>
+					{% if user %}
+					<li><a href="#">{{user.username}}</a></li>
+					<li><a href="{{url_for('logout')}}">注销</a></li>
+					{% else %}
+					<li><a href="{{url_for('ashore')}}">登录</a></li>
+					<li><a href="{{url_for('install')}}">注册</a></li>
+
+					{% endif %}
+
+					<li><a href="{{url_for('release')}}">发布视频</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="inner">
+	<div class="inner">
+		<div class="backg"><img src="{{url_for('static',filename='image/backg_ashore.png')}}"></div>
+		<div class="title_line">
+			<span class="zhuce">密码修改</span>
+		</div>
+		<div class="register">
+			<form action="" method="POST">
+			<div class="rr">
+				<input type="" name="telephone" placeholder="手机号码">
+			</div>
+			<div class="rr">
+				<input type="password" name="password1" placeholder="原密码">
+			</div>
+            <div class="rr">
+				<input type="password" name="password2" placeholder="新密码">
+			</div>
+			<div class="rr">
+				<button>密码修改</button>
+			</div>
+			</form>
+
+		</div>
+	</div>
+</body>
+</html>
